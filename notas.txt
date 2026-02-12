@@ -1,0 +1,59 @@
+tipos de servidores:
+- 🌐 Infraestructura y Redes
+- Servidor DNS: Traduce nombres de dominio a direcciones IP.
+- Servidor DHCP: Asigna direcciones IP automáticamente a los dispositivos en una red.
+- Servidor Proxy: Actúa como intermediario entre un explorador y el internet para seguridad y caché.
+- Servidor NTP (Tiempo): Sincroniza los relojes de los dispositivos en una red.
+- Servidor RADIUS/LDAP: Gestiona la autenticación y autorización de usuarios.
+- Servidor SSH / Telnet: Permite el acceso y gestión remota de sistemas.
+- Servidor VPN: Permite conexiones seguras y privadas a través de una red pública. (Nuevo)
+- Servidor Firewall: Protege la red contra intrusiones.
+
+📂 Almacenamiento y Archivos
+- Servidor de Archivos (NAS/FTP/SFTP): Almacena y distribuye archivos entre usuarios.
+- Servidor de Base de Datos: Gestiona grandes volúmenes de datos (MySQL, PostgreSQL, etc.).
+- Servidor de Respaldo (Backup): Dedicado exclusivamente a copias de seguridad y recuperación de desastres.
+- Servidor de Imágenes/Video: Optimizado para servir contenido multimedia pesado de forma eficiente.
+
+📧 Comunicación y Colaboración
+- Servidor de Correo (SMTP/IMAP/POP3): Gestiona el envío y recepción de emails.
+- Servidor de Chat: Facilita la mensajería instantánea (XMPP, IRC, Slack interno).
+- Servidor SIP / VoIP: Maneja la telefonía IP y videollamadas.
+- Servidor Groupware: Software colaborativo para calendarios, tareas y notas compartidas.
+
+💻 Desarrollo y Aplicaciones
+- Servidor Web (Apache/Nginx): Aloja páginas web y contenido HTML.
+- Servidor de Aplicaciones: Ejecuta la lógica de negocio de un software (Java, Python, Node.js).
+- Servidor de Impresión: Gestiona las colas de impresión de una oficina.
+- Servidor de Monitoreo: Supervisa el estado y rendimiento de otros servidores y redes.
+- Servidor de Seguridad (Firewall/IDS): Protege la red contra intrusiones.
+
+🎮 Entretenimiento y Multimedia
+- Servidor de Juegos: Aloja partidas multijugador online.
+- Servidor de Streaming / Medios: Transmite contenido de audio y video en tiempo real (Plex, RTMP).
+
+☁️ Virtualización y Arquitectura
+- Servidor de Virtualización (Hipervisor): Permite ejecutar múltiples servidores virtuales sobre un solo hardware físico.
+- Servidor Cluster: Conjunto de servidores que trabajan como una sola unidad para alta disponibilidad.
+- Servidor Edge: Procesa datos cerca del usuario final para reducir la latencia (común en IoT). (Nuevo)
+- Servidor de IoT: Gestiona la comunicación y datos de dispositivos inteligentes conectados.
+
+📋 Diferenciación por Tipo de Alojamiento
+Es importante notar que estos no son "tipos de función" sino formas de contratar un servidor:
+- Servidor Dedicado: Una máquina física completa para un solo cliente.
+- Servidor Compartido: Muchos clientes usan el mismo servidor físico y recursos.
+- Servidor VPS (Virtual Private Server): Un servidor físico dividido virtualmente en varios servidores independientes.
+- Servidor Cloud: Recursos escalables distribuidos en múltiples máquinas físicas. (Nuevo)
+
+
+
+
+debe incluir en cada servidor investigado:
+- imágenes  
+- videos embebidos
+- texto por cada servidor investigado
+- Administración de memoria de cada uno de ellos.
+
+
+
+

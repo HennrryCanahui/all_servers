@@ -19,10 +19,37 @@ $app->get('/', function (Request $request, Response $response) {
     return $response;
 });
 
-// RUTA: Servidor DNS
-$app->get('/servidor/dns', function (Request $request, Response $response) {
+
+// RUTA: Servidores Geńericos (Dinámicos)
+$app->group('/servers', function ($group) {
+    $group->get('/{categoria}/{servicio}', function (Request $request, Response $response, $args) {
+        $categoria = $args['categoria'];
+        $servicio = $args['servicio'];
+
+        $rutaVista = __DIR__ . "/../src/Views/servers/{$categoria}/{$servicio}.php";
+
+        if (!file_exists($rutaVista)) {
+            $response->getBody()->write("Vista no encontrada en: " . htmlspecialchars($rutaVista));
+            return $response->withStatus(404);
+        }
+
+        ob_start();
+        include $rutaVista;
+        $html = ob_get_clean();
+
+        $response->getBody()->write($html);
+        return $response;
+    });
+});
+
+
+
+
+// RUTA: Categorías
+$app->get('/categoria/{slug}', function (Request $request, Response $response, array $args) {
+    $slug = $args['slug'];
     ob_start();
-    include __DIR__ . '/../src/Views/servers/dns.php';
+    include __DIR__ . '/../src/Views/category.php';
     $html = ob_get_clean();
     $response->getBody()->write($html);
     return $response;
