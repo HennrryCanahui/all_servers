@@ -6,9 +6,21 @@ use App\Config\Database;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-session_start();
+// Iniciar sesión de forma segura
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 $app = AppFactory::create();
+
+// 1. Permite a Slim procesar datos de formularios $_POST
+$app->addBodyParsingMiddleware();
+
+// 2. Activa el sistema de búsqueda de rutas
+$app->addRoutingMiddleware();
+
+// 3. Manejador de errores (activado para ver detalles en los logs de Railway)
+$app->addErrorMiddleware(true, true, true);
 
 // RUTA: Homepage
 $app->get('/', function (Request $request, Response $response) {
@@ -19,8 +31,7 @@ $app->get('/', function (Request $request, Response $response) {
     return $response;
 });
 
-
-// RUTA: Servidores Geńericos (Dinámicos)
+// RUTA: Servidores Genéricos (Dinámicos)
 $app->group('/servers', function ($group) {
     $group->get('/{categoria}/{servicio}', function (Request $request, Response $response, $args) {
         $categoria = $args['categoria'];
@@ -36,18 +47,13 @@ $app->group('/servers', function ($group) {
         ob_start();
         include $rutaVista;
         $html = ob_get_clean();
-
         $response->getBody()->write($html);
         return $response;
     });
 });
 
-
-
-
 // RUTA: Categorías
 $app->get('/categoria/{slug}', function (Request $request, Response $response, array $args) {
-    $slug = $args['slug'];
     ob_start();
     include __DIR__ . '/../src/Views/category.php';
     $html = ob_get_clean();
@@ -77,7 +83,8 @@ $app->post('/login', function (Request $request, Response $response) {
 
     $stmt = $db->prepare("SELECT * FROM users WHERE email = ?");
     $stmt->execute([$email]);
-    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+    // Agregada barra invertida \PDO para que PHP encuentre la constante global
+    $user = $stmt->fetch(\PDO::FETCH_ASSOC);
 
     if ($user && password_verify($password, $user['password'])) {
         $_SESSION['user_id'] = $user['id'];
@@ -114,7 +121,7 @@ $app->post('/register', function (Request $request, Response $response) {
         $stmt = $db->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
         $stmt->execute([$name, $email, $password]);
         return $response->withHeader('Location', '/login?registered=1')->withStatus(302);
-    } catch (PDOException $e) {
+    } catch (\PDOException $e) {
         return $response->withHeader('Location', '/register?error=exists')->withStatus(302);
     }
 });
