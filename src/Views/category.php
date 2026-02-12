@@ -10,6 +10,9 @@ $categories = [
             ['name' => 'Servidor Proxy', 'desc' => 'Intermediario para seguridad y caché.', 'link' => '/servers/infraestructura_y_redes/proxy'],
             ['name' => 'Servidor NTP', 'desc' => 'Sincroniza los relojes de los dispositivos.', 'link' => '/servers/infraestructura_y_redes/ntp'],
             ['name' => 'Servidor Firewall', 'desc' => 'Protege la red contra intrusiones.', 'link' => '/servers/infraestructura_y_redes/firewall'],
+            ['name' => 'Servidor RADIUS/LDAP', 'desc' => 'Gestiona la autenticación y autorización de usuarios en la red.', 'link' => '/servers/infraestructura_y_redes/radius'],
+            ['name' => 'Servidor VPN', 'desc' => 'Permite el acceso remoto seguro a la red.', 'link' => '/servers/infraestructura_y_redes/vpn'],
+            ['name' => 'Servidor SSH', 'desc' => 'Permite el acceso remoto seguro a la red.', 'link' => '/servers/infraestructura_y_redes/ssh'],
         ]
     ],
     'almacenamiento' => [
