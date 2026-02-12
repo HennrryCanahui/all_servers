@@ -54,6 +54,7 @@ $app->group('/servers', function ($group) {
 
 // RUTA: Categorías
 $app->get('/categoria/{slug}', function (Request $request, Response $response, array $args) {
+    $slug = $args['slug'];
     ob_start();
     include __DIR__ . '/../src/Views/category.php';
     $html = ob_get_clean();
