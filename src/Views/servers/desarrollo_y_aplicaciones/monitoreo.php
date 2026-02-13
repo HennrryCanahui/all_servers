@@ -134,15 +134,9 @@
             </section>
 
             <section class="mb-5">
-                <h3>Video: Importancia del Monitoreo Proactivo</h3>
+                <h3>Video Explicativo</h3>
                 <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                    <iframe 
-                        src="https://www.youtube.com/embed/S263IsmS3Yk"
-                        title="Monitoring Server Explanation Video"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/bh6JxWJOvq0?si=8qFb3CIlVSIzxUOi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
         </div>

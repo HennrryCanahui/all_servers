@@ -127,13 +127,7 @@
             <section class="mb-5">
                 <h3>Video: Cómo funciona un Servidor de Juegos</h3>
                 <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                    <iframe 
-                        src="https://www.youtube.com/embed/S263IsmS3Yk"
-                        title="Game Server Explanation Video"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/evzsq7X862Q?si=PL5xXkJ3IZVLSsdy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
         </div>

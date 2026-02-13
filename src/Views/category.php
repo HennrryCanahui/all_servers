@@ -2,6 +2,7 @@
 
 <?php
 $categories = [
+
     'infraestructura' => [
         'title' => 'Infraestructura y Redes',
         'servers' => [
@@ -9,57 +10,56 @@ $categories = [
             ['name' => 'Servidor DHCP', 'desc' => 'Asigna direcciones IP automáticamente.', 'link' => '/servers/infraestructura_y_redes/dhcp'],
             ['name' => 'Servidor Proxy', 'desc' => 'Intermediario para seguridad y caché.', 'link' => '/servers/infraestructura_y_redes/proxy'],
             ['name' => 'Servidor NTP', 'desc' => 'Sincroniza los relojes de los dispositivos.', 'link' => '/servers/infraestructura_y_redes/ntp'],
-            ['name' => 'Servidor Firewall', 'desc' => 'Protege la red contra intrusiones.', 'link' => '/servers/infraestructura_y_redes/firewall'],
-            ['name' => 'Servidor RADIUS/LDAP', 'desc' => 'Gestiona la autenticación y autorización de usuarios en la red.', 'link' => '/servers/infraestructura_y_redes/radius'],
             ['name' => 'Servidor VPN', 'desc' => 'Permite el acceso remoto seguro a la red.', 'link' => '/servers/infraestructura_y_redes/vpn'],
-            ['name' => 'Servidor SSH', 'desc' => 'Permite el acceso remoto seguro a la red.', 'link' => '/servers/infraestructura_y_redes/ssh'],
         ]
     ],
+
     'almacenamiento' => [
         'title' => 'Almacenamiento y Archivos',
         'servers' => [
-            ['name' => 'Servidor de Archivos (NAS/FTP)', 'desc' => 'Almacena y distribuye archivos.', 'link' => '/servers/almacenamiento_y_archivos/archivos'],
+            ['name' => 'Servidor de Archivos', 'desc' => 'Almacena y distribuye archivos en la red.', 'link' => '/servers/almacenamiento_y_archivos/archivos'],
             ['name' => 'Servidor de Base de Datos', 'desc' => 'Gestiona grandes volúmenes de datos.', 'link' => '/servers/almacenamiento_y_archivos/base_de_datos'],
             ['name' => 'Servidor de Respaldo (Backup)', 'desc' => 'Dedicado exclusivamente a copias de seguridad y recuperación de desastres.', 'link' => '/servers/almacenamiento_y_archivos/respaldo'],
-            ['name' => 'Servidor de Imágenes/Video', 'desc' => 'Optimizado para servir contenido multimedia pesado de forma eficiente.', 'link' => '/servers/almacenamiento_y_archivos/multimedia'],
+            ['name' => 'Servidor Multimedia', 'desc' => 'Optimizado para almacenar y distribuir contenido multimedia.', 'link' => '/servers/almacenamiento_y_archivos/multimedia'],
         ]
     ],
+
     'comunicacion' => [
         'title' => 'Comunicación y Colaboración',
         'servers' => [
-            ['name' => 'Servidor de Correo (SMTP/IMAP/POP3)', 'desc' => 'Gestiona el envío y recepción de emails.', 'link' => '/servers/comunicacion_y_colaboracion/correo'],
-            ['name' => 'Servidor de Chat', 'desc' => 'Facilita la mensajería instantánea (XMPP, IRC, Slack interno).', 'link' => '/servers/comunicacion_y_colaboracion/chat'],
-            ['name' => 'Servidor SIP / VoIP', 'desc' => 'Maneja la telefonía IP y videollamadas.', 'link' => '/servers/comunicacion_y_colaboracion/sip'],
-            ['name' => 'Servidor Groupware', 'desc' => 'Software colaborativo para calendarios, tareas y notas compartidas.', 'link' => '/servers/comunicacion_y_colaboracion/groupware'],
+            ['name' => 'Servidor de Correo', 'desc' => 'Gestiona el envío y recepción de correos electrónicos.', 'link' => '/servers/comunicacion_y_colaboracion/correo'],
+            ['name' => 'Servidor de Chat', 'desc' => 'Facilita la mensajería instantánea.', 'link' => '/servers/comunicacion_y_colaboracion/chat'],
+            ['name' => 'Servidor Groupware', 'desc' => 'Plataforma colaborativa para calendarios, tareas y documentos compartidos.', 'link' => '/servers/comunicacion_y_colaboracion/groupware'],
         ]
     ],
+
     'desarrollo' => [
         'title' => 'Desarrollo y Aplicaciones',
         'servers' => [
-            ['name' => 'Servidor Web (Apache/Nginx)', 'desc' => 'Aloja páginas web y contenido HTML.', 'link' => '/servers/desarrollo_y_aplicaciones/web'],
-            ['name' => 'Servidor de Aplicaciones', 'desc' => 'Ejecuta la lógica de negocio de un software (Java, Python, Node.js).', 'link' => '/servers/desarrollo_y_aplicaciones/aplicaciones'],
+            ['name' => 'Servidor Web', 'desc' => 'Aloja páginas web y contenido HTML.', 'link' => '/servers/desarrollo_y_aplicaciones/web'],
+            ['name' => 'Servidor de Aplicaciones', 'desc' => 'Ejecuta la lógica de negocio de un software.', 'link' => '/servers/desarrollo_y_aplicaciones/aplicaciones'],
             ['name' => 'Servidor de Impresión', 'desc' => 'Gestiona las colas de impresión de una oficina.', 'link' => '/servers/desarrollo_y_aplicaciones/impresion'],
             ['name' => 'Servidor de Monitoreo', 'desc' => 'Supervisa el estado y rendimiento de otros servidores y redes.', 'link' => '/servers/desarrollo_y_aplicaciones/monitoreo'],
-            ['name' => 'Servidor de Seguridad (Firewall/IDS)', 'desc' => 'Protege la red contra intrusiones.', 'link' => '/servers/desarrollo_y_aplicaciones/seguridad'],
         ]
     ],
+
     'entretenimiento' => [
         'title' => 'Entretenimiento y Multimedia',
         'servers' => [
             ['name' => 'Servidor de Juegos', 'desc' => 'Aloja partidas multijugador online.', 'link' => '/servers/entretenimient_y_multimedia/juegos'],
-            ['name' => 'Servidor de Streaming / Medios', 'desc' => 'Transmite contenido de audio y video en tiempo real (Plex, RTMP).', 'link' => '/servers/entretenimient_y_multimedia/striming'],
+            ['name' => 'Servidor de Streaming', 'desc' => 'Transmite contenido de audio y video en tiempo real.', 'link' => '/servers/entretenimient_y_multimedia/striming'],
         ]
     ],
+
     'virtualizacion' => [
         'title' => 'Virtualización y Arquitectura',
         'servers' => [
-            ['name' => 'Servidor de Virtualización (Hipervisor)', 'desc' => 'Permite ejecutar múltiples servidores virtuales sobre un solo hardware físico.', 'link' => '/servers/virtualizacion_y_arquitectura/virtualizacion'],
-            ['name' => 'Servidor Cluster', 'desc' => 'Conjunto de servidores que trabajan como una sola unidad para alta disponibilidad.', 'link' => '/servers/virtualizacion_y_arquitectura/cluster'],
-            ['name' => 'Servidor Edge', 'desc' => 'Procesa datos cerca del usuario final para reducir la latencia (común en IoT).', 'link' => '/servers/virtualizacion_y_arquitectura/edge'],
             ['name' => 'Servidor de IoT', 'desc' => 'Gestiona la comunicación y datos de dispositivos inteligentes conectados.', 'link' => '/servers/virtualizacion_y_arquitectura/iot'],
         ]
     ],
+
 ];
+
 
 $category = $categories[$slug] ?? null;
 ?>

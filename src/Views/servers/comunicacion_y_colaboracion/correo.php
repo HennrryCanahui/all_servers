@@ -1,9 +1,5 @@
 <?php include __DIR__ . '/../../layouts/header.php'; ?>
 
-
-
-<?php include __DIR__ . '/../../layouts/header.php'; ?>
-
 <div class="container py-4">
     <div class="row">
         <!-- Columna Principal -->
@@ -111,15 +107,9 @@
             </section>
 
             <section class="mb-5">
-                <h3>Video: Configuración de MTA Postfix</h3>
+                <h3>Video Explicativo</h3>
                 <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                    <iframe 
-                        src="https://www.youtube.com/embed/Sshz-8XpS8U"
-                        title="Mail Server Setup"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cVIE8ZmjRPM?si=XhSAVsAgHdHLbsbO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
         </div>
@@ -146,12 +136,6 @@
                     <p class="mb-1"><strong>RAM:</strong> Conexiones persistentes IMAP.</p>
                     <p class="mb-0"><strong>I/O:</strong> Escritura masiva de adjuntos.</p>
                 </div>
-            </div>
-
-            <div class="d-grid gap-2">
-                <a href="javascript:history.back()" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left"></i> Volver a la lista
-                </a>
             </div>
         </div>
     </div>

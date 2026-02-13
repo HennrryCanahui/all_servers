@@ -145,15 +145,9 @@
             </section>
 
             <section class="mb-5">
-                <h3>Video: Colaboración en Tiempo Real</h3>
+                <h3>Video Explicativo de que es Groupware</h3>
                 <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                    <iframe 
-                        src="https://www.youtube.com/embed/5UfB7m0i9Xk"
-                        title="Groupware Collaboration Tutorial"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/S1U5hU5gb4M?si=aCkn3S13ob3Li6XQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </section>
         </div>
@@ -176,12 +170,6 @@
                     <li class="list-group-item">Centralización de la toma de decisiones.</li>
                     <li class="list-group-item">Seguridad de datos compartidos.</li>
                 </ul>
-            </div>
-
-            <div class="d-grid gap-2">
-                <a href="javascript:history.back()" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left"></i> Volver a la lista
-                </a>
             </div>
         </div>
     </div>

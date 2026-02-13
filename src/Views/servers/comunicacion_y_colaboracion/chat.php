@@ -79,19 +79,6 @@
                     </ul>
                 </div>
             </section>
-
-            <section class="mb-5">
-                <h3>Video: Cómo funciona Socket.io</h3>
-                <div class="ratio ratio-16x9 shadow rounded overflow-hidden">
-                    <iframe 
-                        src="https://www.youtube.com/embed/ZKEqqIO7nLS"
-                        title="Real-time with Socket.io"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-            </section>
         </div>
 
         <!-- Sidebar -->
@@ -114,12 +101,6 @@
                     <li class="list-group-item"><strong>Bases de Datos:</strong> NoSQL (como Cassandra o MongoDB) para logs masivos de mensajes.</li>
                     <li class="list-group-item"><strong>Seguridad:</strong> TLS obligatorio para evitar el sniffing de mensajes en tránsito.</li>
                 </ul>
-            </div>
-
-            <div class="d-grid gap-2">
-                <a href="javascript:history.back()" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left"></i> Volver a la lista
-                </a>
             </div>
         </div>
     </div>
