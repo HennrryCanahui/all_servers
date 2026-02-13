@@ -8,14 +8,39 @@
 
     <div class="row mt-5 g-4">
         <?php
-        $mainCategories = [
-            ['slug' => 'infraestructura', 'title' => 'Infraestructura y Redes', 'desc' => 'DNS, DHCP, Proxy, NTP y más.'],
-            ['slug' => 'almacenamiento', 'title' => 'Almacenamiento y Archivos', 'desc' => 'NAS, FTP, Bases de Datos, Backup.'],
-            ['slug' => 'comunicacion', 'title' => 'Comunicación y Colaboración', 'desc' => 'Email, Chat, VoIP, Groupware.'],
-            ['slug' => 'desarrollo', 'title' => 'Desarrollo y Aplicaciones', 'desc' => 'Web, Apps, Monitoreo, Seguridad.'],
-            ['slug' => 'entretenimiento', 'title' => 'Entretenimiento y Multimedia', 'desc' => 'Juegos y Streaming.'],
-            ['slug' => 'virtualizacion', 'title' => 'Virtualización y Arquitectura', 'desc' => 'Hipervisores, Cloud, IoT.'],
-        ];
+       $mainCategories = [
+    [
+        'slug' => 'infraestructura',
+        'title' => 'Infraestructura y Redes',
+        'desc' => 'DNS, DHCP, Proxy, NTP y VPN.'
+    ],
+    [
+        'slug' => 'almacenamiento',
+        'title' => 'Almacenamiento y Archivos',
+        'desc' => 'Servidor de archivos, bases de datos, respaldo y multimedia.'
+    ],
+    [
+        'slug' => 'comunicacion',
+        'title' => 'Comunicación y Colaboración',
+        'desc' => 'Correo electrónico, chat y plataformas colaborativas.'
+    ],
+    [
+        'slug' => 'desarrollo',
+        'title' => 'Desarrollo y Aplicaciones',
+        'desc' => 'Servidor web, aplicaciones, impresión y monitoreo.'
+    ],
+    [
+        'slug' => 'entretenimiento',
+        'title' => 'Entretenimiento y Multimedia',
+        'desc' => 'Servidores de juegos y streaming.'
+    ],
+    [
+        'slug' => 'virtualizacion',
+        'title' => 'Virtualización y Arquitectura',
+        'desc' => 'Servidores IoT y arquitecturas modernas.'
+    ],
+];
+
         foreach ($mainCategories as $cat):
         ?>
         <div class="col-md-6 col-lg-4">

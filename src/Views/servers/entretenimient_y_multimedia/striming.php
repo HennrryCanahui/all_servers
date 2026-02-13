@@ -115,11 +115,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Distribución</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-cloud-arrow-down display-1 text-primary mb-3"></i>
-                    <h5>Flujo: Origen <i class="bi bi-arrow-right"></i> CDN <i class="bi bi-arrow-right"></i> Usuario</h5>
-                    <p class="text-muted small">Representación de la entrega de contenido adaptativo a escala global.</p>
-                </div>
+                <img src="https://nodenet.es/sites/default/files/2020-05/que-es-un-cdn.png" style="width: 75%; height: auto;" alt="Esquema de Distribución">
             </section>
 
             <section class="mb-5">

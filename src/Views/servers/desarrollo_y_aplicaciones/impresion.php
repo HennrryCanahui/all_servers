@@ -120,11 +120,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Flujo de Impresión</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-file-earmark-pdf display-1 text-primary mb-3"></i>
-                    <h5>Usuario <i class="bi bi-arrow-right"></i> Servidor (Spooling) <i class="bi bi-arrow-right"></i> Impresora</h5>
-                    <p class="text-muted small">Representación del ciclo de vida de un documento desde el PC hasta el papel.</p>
-                </div>
+                <img src="https://formacion.intef.es/tutorizados_2013_2019/pluginfile.php/37407/mod_imscp/content/1/11.2.png" style="width: 75%; height: auto;" alt="Esquema de Flujo de Impresión">
             </section>
 
             <section class="mb-5">

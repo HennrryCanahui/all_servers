@@ -146,11 +146,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Ecosistema IoT</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-bounding-box-circles display-1 text-dark mb-3"></i>
-                    <h5>Arquitectura de Sensores a Nube</h5>
-                    <p class="text-muted small">Representación del flujo: Cosas <i class="bi bi-arrow-right"></i> Gateway <i class="bi bi-arrow-right"></i> Servidor Central.</p>
-                </div>
+                <img src="https://aprendiendoarduino.wordpress.com/wp-content/uploads/2018/11/codit_iot_valuechain.png" style="width: 75%; height: auto;" alt="Esquema de Ecosistema IoT">
             </section>
 
             <section class="mb-5">

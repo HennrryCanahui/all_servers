@@ -126,11 +126,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Tunelización</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-bezier2 display-1 text-primary mb-3"></i>
-                    <h5>Túnel Cifrado Punto a Punto</h5>
-                    <p class="text-muted small">Representación de la red privada extendida sobre Internet.</p>
-                </div>
+                <img src="https://dc722jrlp2zu8.cloudfront.net/media/cache/ed/32/ed32b07bbdc4114b8e15a5f9da1e89e1.jpg" style="width: 75%; height: auto;" alt="Esquema de Tunelización">
             </section>
 
             <section class="mb-5">

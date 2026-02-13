@@ -147,11 +147,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Infraestructura Web</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-diagram-3-fill display-1 text-primary mb-3"></i>
-                    <h5>Navegador <i class="bi bi-arrow-left-right"></i> Servidor Web <i class="bi bi-arrow-left-right"></i> Almacenamiento/App</h5>
-                    <p class="text-muted small">Representación del flujo de datos entre el cliente y el servidor.</p>
-                </div>
+                <img src="https://svg.template.creately.com/wtsQYPKPD1a" style="width: 75%; height: auto;" alt="Esquema de Infraestructura Web">
             </section>
 
             <section class="mb-5">

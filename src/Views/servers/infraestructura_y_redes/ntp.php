@@ -81,12 +81,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Sincronización</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light">
-                    <!-- Espacio para diagrama -->
-                    <i class="bi bi-clock-history display-1 text-info"></i>
-                    <h5 class="mt-3">Sincronización Multicapa</h5>
-                    <p class="text-muted small">Desde el Reloj Atómico hasta tu Smartphone.</p>
-                </div>
+                <img src="https://ccnadesdecero.es/wp-content/uploads/2024/05/Funcionamiento-NTP-700x849.png" style="width: 50%; height: auto;" alt="Esquema de Sincronización">
             </section>
 
             <section class="mb-5">

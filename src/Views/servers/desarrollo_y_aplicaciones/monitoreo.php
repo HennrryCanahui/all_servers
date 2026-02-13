@@ -126,11 +126,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Observabilidad</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-cpu-fill display-1 text-danger mb-3"></i>
-                    <h5>Infraestructura <i class="bi bi-arrow-right"></i> Servidor Monitoreo <i class="bi bi-arrow-right"></i> Dashboards / Alertas</h5>
-                    <p class="text-muted small">Representación del ciclo de vida del dato: Recolección, Análisis y Notificación.</p>
-                </div>
+                <img src="https://www.e-dea.co/hs-fs/hubfs/OBSERVABILITY.png" style="width: 75%; height: auto;" alt="Esquema de Observabilidad">
             </section>
 
             <section class="mb-5">

@@ -32,7 +32,7 @@
                 </div>
                 
                 <div class="text-center my-4">
-                    <img src="https://images.unsplash.com/photo-1591405351990-4726e33df58d?auto=format&fit=crop&q=80&w=800" class="img-fluid rounded shadow" alt="Protección de Datos">
+                    <img src="https://4.bp.blogspot.com/-uhbFbV-Txns/WkajXMCBsTI/AAAAAAAAHbw/5is8QcqoNREmYzFRzQWYTKktrRdGAOdtwCLcBGAs/s1600/DR-Cloud.png" class="img-fluid rounded shadow" alt="Protección de Datos">
                     <p class="text-muted small mt-2">Arquitectura de protección de datos y recuperación ante desastres</p>
                 </div>
             </section>

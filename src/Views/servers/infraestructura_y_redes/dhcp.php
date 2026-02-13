@@ -44,11 +44,9 @@
                 </div>
                 
                 <div class="text-center my-5">
-                    <!-- Placeholder para diagrama técnico -->
-                    <div class="p-5 border border-dashed rounded bg-light">
-                        <i class="bi bi-diagram-3 display-1 text-muted"></i>
-                        <p class="text-muted mt-3">Diagrama Técnico de Comunicación DHCP (DORA)</p>
-                    </div>
+    
+                        <img src="https://tse1.mm.bing.net/th/id/OIP.ttslMrBZywnq3SvD98GfUAHaE3?cb=defcachec2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Diagrama Técnico de Comunicación DHCP (DORA)">
+                    
                 </div>
             </section>
 

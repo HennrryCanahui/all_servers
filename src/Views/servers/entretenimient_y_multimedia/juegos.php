@@ -117,11 +117,7 @@
 
             <section class="mb-5">
                 <h3>Esquema de Infraestructura</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <i class="bi bi-diagram-3 display-1 text-danger mb-3"></i>
-                    <h5>Flujo de Autoridad Competitiva</h5>
-                    <p class="text-muted small">Representación del ciclo: Entrada del Cliente <i class="bi bi-arrow-right"></i> Procesamiento <i class="bi bi-arrow-right"></i> Estado Global.</p>
-                </div>
+                <img src="https://www.ionos.es/digitalguide/fileadmin/_processed_/0/9/csm_client-server-modell-us_2f314afbee.webp" style="width: 75%; height: auto;" alt="Esquema de Observabilidad">
             </section>
 
             <section class="mb-5">

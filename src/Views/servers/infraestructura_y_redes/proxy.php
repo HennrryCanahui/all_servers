@@ -89,12 +89,7 @@
 
             <section class="mb-5">
                 <h3>Diagrama de Funcionamiento</h3>
-                <div class="text-center my-4 p-5 border border-dashed rounded bg-light shadow-sm">
-                    <!-- Placeholder de Imagen -->
-                    <i class="bi bi-hdd-network display-1 text-primary mb-3"></i>
-                    <h5>Flujo: Cliente <i class="bi bi-arrow-right"></i> Proxy <i class="bi bi-arrow-right"></i> Internet</h5>
-                    <p class="text-muted small">El proxy intercepta la comunicación para filtrar o acelerar el contenido.</p>
-                </div>
+                <img src="https://tse4.mm.bing.net/th/id/OIP.y6kVCkU54p9-1C6LreY0KwHaEK?cb=defcachec2&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Diagrama de Funcionamiento">
             </section>
 
             <section class="mb-5">
