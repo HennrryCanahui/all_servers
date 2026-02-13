@@ -38,6 +38,16 @@ tipos de servidores:
 - Servidor Edge: Procesa datos cerca del usuario final para reducir la latencia (común en IoT). (Nuevo)
 - Servidor de IoT: Gestiona la comunicación y datos de dispositivos inteligentes conectados.
 
+
+
+
+
+
+
+
+
+
+
 📋 Diferenciación por Tipo de Alojamiento
 Es importante notar que estos no son "tipos de función" sino formas de contratar un servidor:
 - Servidor Dedicado: Una máquina física completa para un solo cliente.
